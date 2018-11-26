@@ -1,8 +1,9 @@
 require(dplyr)
 
 #Load data into appropriate variables
-#The following libe maybe removed when running the code elsewhere
+#The following libe maybe removed when running the code elsewhere 
 setwd("/Users/BAM/Desktop/R/GettingAndCleaningDataAssignment/Data")
+#setwd("./Data")
 
 xtest<-read.table("./test/X_test.txt")
 ytest<-read.table("./test/y_test.txt")
