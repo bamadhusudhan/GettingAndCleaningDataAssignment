@@ -1,0 +1,84 @@
+Codeboook
+
+20 Nov 2018
+B A Madhusudhan
+
+Input Dataset
+Human Activity Recognition Using Smartphones Dataset
+Version 1.0
+
+6 activities of 30 human subjects were captured through the use of Gyroscopes and Accelerometers embedded in a smartphone. 6 activies were:
+1. Walking
+2. Walking upstairs
+3. Walking downstairs
+4. Sitting
+5. Standing
+6. Laying
+
+2 types of signals are available in the extracted data
+Time Domain
+Frequency Domain
+
+Output File
+
+The output file contains of 81 columns with the first 2 being "Subject" and "Aactivity"
+The remaining 79 columns consists of values that shows the average of each variable for each subject
+The data has been ordered subject-wise.
+
+The remaining 79 columns are named as follows. The names have been cleaned up to ensure better readability
+
+Time Domain
+
+(3 values for each of the following - X,Y and Z axis) - 30 columns
+BodyAcceleration-mean
+BodyAcceleration-std 
+GravityAcceleration-mean
+GravityAcceleration-std
+BodyAccelerationJerk-mean
+BodyAccelerationJerk-std
+BodyGyroscope-mean
+BodyGyroscope-std
+BodyGyroscopeJerk-mean
+BodyGyroscopeJerk-std
+
+(1 value for each of the following) - 10 columns
+BodyAccelerationMagnitude-mean 
+BodyAccelerationMagnitude-std
+GravityAccelerationMagnitude-mean 
+GravityAccelerationMagnitude-std 
+BodyAccelerationJerkMagnitude-mean 
+BodyAccelerationJerkMagnitude-std 
+BodyGyroscopeMagnitude-mean 
+BodyGyroscopeMagnitude-std 
+BodyGyroscopeJerkMagnitude-mean 
+BodyGyroscopeJerkMagnitude-std 
+
+
+Frequency Domain (3 values for each) - 27 columns
+
+BodyAcceleration-mean
+BodyAcceleration-std
+BodyAcceleration-meanFreq
+BodyAccelerationJerk-mean
+BodyAccelerationJerk-std
+BodyAccelerationJerk-meanFreq
+BodyGyroscope-mean
+BodyGyroscope-std
+BodyGyroscope-meanFreq
+
+
+(1 value for each of the following) - 12 columns
+BodyAccelerationMagnitude-mean
+BodyAccelerationMagnitude-std 
+BodyAccelerationMagnitude-meanFreq 
+BodyAccelerationJerkMagnitude-mean 
+BodyAccelerationJerkMagnitude-std 
+BodyAccelerationJerkMagnitude-meanFreq 
+BodyGyroscopeMagnitude-mean 
+BodyGyroscopeMagnitude-std 
+BodyGyroscopeMagnitude-meanFreq
+BodyGyroscopeJerkMagnitude-mean 
+BodyGyroscopeJerkMagnitude-std 
+BodyGyroscopeJerkMagnitude-meanFreq 
+
+ 
