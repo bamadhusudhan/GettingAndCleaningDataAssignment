@@ -21,7 +21,7 @@ Frequency Domain
 
 Output File
 
-The output file contains of 81 columns with the first 2 being "Subject" and "Aactivity"
+The output file contains of 81 columns with the first 2 being "Subject" and "Activity"
 The remaining 79 columns consists of values that shows the average of each variable for each subject
 The data has been ordered subject-wise.
 
@@ -54,8 +54,9 @@ BodyGyroscopeJerkMagnitude-mean
 BodyGyroscopeJerkMagnitude-std 
 
 
-Frequency Domain (3 values for each) - 27 columns
+Frequency Domain
 
+(3 values for each) - 27 columns
 BodyAcceleration-mean
 BodyAcceleration-std
 BodyAcceleration-meanFreq
